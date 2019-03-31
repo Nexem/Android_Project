@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RandoPlaner</string>
+    <string name="welcome_1">RandoPlaner</string>
+    <string name="welcome_2">Bienvenue sur RandoPlaner !</string>
+    <string name="welcome_3">Simplifiez vos évenements en montagne grâce à RandoPlaner</string>
+    <string name="welcome_4">Envie d\'une randonnée ?</string>
+    <string name="welcome_5">Créez un nouvel évenement dès maintenant !</string>
+</resources>
