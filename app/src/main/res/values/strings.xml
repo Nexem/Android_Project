@@ -5,4 +5,9 @@
     <string name="welcome_3">Simplifiez vos évenements en montagne grâce à RandoPlaner</string>
     <string name="welcome_4">Envie d\'une randonnée ?</string>
     <string name="welcome_5">Créez un nouvel évenement dès maintenant !</string>
+    <string name="login1">Login :</string>
+    <string name="login2">Login</string>
+    <string name="password1">Password :</string>
+    <string name="password2">Password</string>
+    <string name="authenticate">Authenticate</string>
 </resources>
