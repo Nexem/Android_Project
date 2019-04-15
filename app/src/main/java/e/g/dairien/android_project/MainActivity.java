@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //Handle the bottom bar to load the different fragment
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener =
             new BottomNavigationView.OnNavigationItemSelectedListener() {
                 @Override
@@ -59,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                             return true;
                         case R.id.nav_randos:
                             toolbar.setTitle("Vue Randos");
-                            fragment = new VueRandoFragment();
+                            fragment = new RandoFragment();
                             loadFragment(fragment);
                             return true;
                     }
@@ -68,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
             };
 
 
+    //Load a fragment
     private void loadFragment(Fragment fragment) {
         // load fragment
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
