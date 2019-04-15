@@ -16,6 +16,8 @@
     <string name="bottom_navigation_menu_logos">Logo</string>
     <string name="bottom_navigation_menu_android">Android</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- CREATE FRAGMENT -->
+    <string name="Titre">Titre</string>
+    <string name="Lieu">Lieu</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
