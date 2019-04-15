@@ -22,4 +22,9 @@ public class Rando {
     public String getDate(){
         return _date;
     }
+
+    @Override
+    public String toString() {
+        return this._title +" ("+ this._place+")";
+    }
 }
