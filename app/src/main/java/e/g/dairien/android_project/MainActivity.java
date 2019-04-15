@@ -28,16 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar.setTitle("Accueil");
         loadFragment(new AccueilFragment());
-
-        /*Button startButton = (Button) findViewById(R.id.create_event);
-        startButton.setOnClickListener((new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent callAuthentication = new Intent(getApplicationContext(), authentication.class);
-
-                startActivity(callAuthentication);
-            }
-        }));*/
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener =
