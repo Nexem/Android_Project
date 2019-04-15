@@ -28,6 +28,17 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar.setTitle("Accueil");
         loadFragment(new AccueilFragment());
+
+
+        Button b =(Button)findViewById(R.id.cata);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent myIntent = new Intent(getApplicationContext(), Catalog.class);
+                startActivity(myIntent);
+            }
+        });
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener =

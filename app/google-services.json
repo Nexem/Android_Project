@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "562966648274",
+    "firebase_url": "https://randoplaner.firebaseio.com",
+    "project_id": "randoplaner",
+    "storage_bucket": "randoplaner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562966648274:android:fd577520a9d75faf",
+        "android_client_info": {
+          "package_name": "e.g.dairien.android_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562966648274-0tq0k4900a1uhm3kqd4t3gdgpqsca1a0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5TkejAMymN9V-wqWWLgq0ODbh8NNl1S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562966648274-0tq0k4900a1uhm3kqd4t3gdgpqsca1a0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
