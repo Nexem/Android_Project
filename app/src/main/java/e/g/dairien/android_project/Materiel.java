@@ -14,7 +14,6 @@ public class Materiel {
     public void setNom(String nom) {
         this._nom = nom;
     }
-
     @Override
     public String toString(){
         return _nom;

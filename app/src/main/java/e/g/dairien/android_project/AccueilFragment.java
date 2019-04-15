@@ -1,6 +1,7 @@
 package e.g.dairien.android_project;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -34,6 +35,16 @@ public class AccueilFragment extends Fragment{
                 loadFragment(fragment);
             }
         }));
+
+        Button b =(Button)v.findViewById(R.id.cata);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent myIntent = new Intent(getActivity(), Catalog.class);
+                startActivity(myIntent);
+            }
+        });
 
         return v;
     }
