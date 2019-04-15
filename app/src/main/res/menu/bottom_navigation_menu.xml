@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/nav_event"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/icons8_adresse_24"
         android:title="Créer Event"/>
 
     <item
         android:id="@+id/nav_accueil"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/icons8_accueil_24"
         android:title="Accueil"/>
 
     <item
         android:id="@+id/nav_randos"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@drawable/icons8_chercher_24"
         android:title="Vue Randos"/>
 
 </menu>
