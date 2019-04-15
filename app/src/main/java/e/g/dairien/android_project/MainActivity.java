@@ -28,9 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar.setTitle("Accueil");
         loadFragment(new AccueilFragment());
-
-
-
     }
 
     //Handle the bottom bar to load the different fragment
